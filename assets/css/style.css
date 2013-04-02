@@ -1,5 +1,6 @@
 body {
-	padding-top: 50px;
+	padding-top,
+	padding-bottom: 50px;
 }
 
 #hero {
@@ -23,6 +24,12 @@ body {
 	letter-spacing: -1px;
 }
 
+#about-me {
+	border-radius: 3px;
+	background-color: #E0E0E0;
+	height: 360px;
+}
+
 #about-me img {
 	border-radius: 150px;
 }
@@ -31,4 +38,9 @@ body {
 	font-style: italic;
 	color: #595959;
 	font-size: 16px;
+	margin-top: 10px;
+}
+
+#about-me-inner {
+	margin: 10px;
 }
