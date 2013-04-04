@@ -37,3 +37,36 @@ body {
 #about-me-inner {
 	margin: 10px;
 }
+
+#social ul {
+	list-style: none;
+}
+
+#social li {
+	padding: 15px;
+	font-size: 20px;
+}
+
+#social a {
+	float: left;
+	margin-left: 20px;
+	text-decoration: none;
+	color: black;
+}
+
+#laggacy ul {
+	list-style: none;
+	margin-left: -15px;
+}
+
+#laggacy li {
+	padding: 15px;
+	font-size: 20px;
+}
+
+#laggacy a {
+	margin-left: 15px;
+	text-decoration: none;
+	color: black;
+	float: left;
+}
