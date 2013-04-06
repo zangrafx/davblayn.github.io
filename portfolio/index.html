@@ -14,7 +14,7 @@ title: Portfolio
   <li>
     <a href="{{ post.url }}">
       <h3>{{ post.title }}</h3>
-      <img src="{{post.image}}" alt="{{post.title}}" />
+      {% if post.image %}<img src="{{post.image}}" alt="{{post.title}}" />{% endif %}
     </a>
   </li>
  
