@@ -2,15 +2,14 @@
 layout: default
 title: Portfolio
 ---
- 
-<section class="content">
-  <h2>Portfolio</h2>
- 
-  <p>Check out my images below!</p>
-</section>
+
+<div class="page-header">
+  <h1>My work</h1>
+</div>
  
 <ul class="entries">
-  {% for post in site.posts %}
+    {% for post in site.posts %}
+ 
  
   <li>
     <a href="{{ post.url }}">
