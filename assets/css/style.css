@@ -70,3 +70,7 @@ body {
 	color: black;
 	float: left;
 }
+
+#contact-icons a {
+	text-decoration: none
+}
